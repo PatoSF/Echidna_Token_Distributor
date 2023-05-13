@@ -11,12 +11,12 @@ Open your terminal and run forge build.
 
 Install Docker for Windows and the Trail of Bits Security Toolbox by following the instructions on their respective GitHub pages: Docker and Trail of Bits Security Toolbox.
 
-Install Foundry by running ''' curl -L https://foundry.paradigm.xyz | bash ''' in your terminal.
+Install Foundry by running ```curl -L https://foundry.paradigm.xyz | bash``` in your terminal.
 
-After installing Docker and the Trail of Bits Security Toolbox, run '''docker build -t <ChooseAName> ''' to create a Docker image with both tools and Foundry.
+After installing Docker and the Trail of Bits Security Toolbox, run ```docker build -t <ChooseAName>``` to create a Docker image with both tools and Foundry.
 
-Run ''' docker run -it --mount type=bind,source="${PWD}",target=/code <ChooseAName> ''' to create a container. If your project is located on your Desktop, navigate to it by running cd .. twice, then cd code.
+Run ```docker run -it --mount type=bind,source="${PWD}",target=/code <ChooseAName>``` to create a container. If your project is located on your Desktop, navigate to it by running cd .. twice, then cd code.
 
-Once you're in your project's path, run forge build to compile the project. To run the fuzz test, use the command echidna-test . --contract TutorialTest --test-mode assertion.
+Once you're in your project's path, run forge build to compile the project. To run the fuzz test, use the command ```echidna-test . --contract TutorialTest --test-mode assertion```.
 
 In summary, these steps will set up a development environment on your Windows machine with the necessary tools to build and test smart contracts using Foundry. See below for a visual representation of the process:
