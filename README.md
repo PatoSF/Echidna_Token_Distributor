@@ -12,7 +12,8 @@ If you're using Windows, follow these steps to install and use Foundry:
 Install Docker for Windows and the Trail of Bits Security Toolbox by following the instructions on their respective GitHub pages: Docker and Trail of Bits Security Toolbox.
 
 Install Foundry by running ```curl -L https://foundry.paradigm.xyz | bash``` in your terminal.  
-![alt text]( https://github.com/PatoSF/Echidna_Token_Distributor/blob/master/Images/Screenshot%20(426).png)
+
+![alt text](https://github.com/PatoSF/Echidna_Token_Distributor/blob/master/Images/Screenshot%20(426).png) 
 
 After installing Docker and the Trail of Bits Security Toolbox, run ```docker build -t <ChooseAName>``` to create a Docker image with both tools and Foundry.
 
