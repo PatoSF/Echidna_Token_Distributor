@@ -1,4 +1,6 @@
-Installation on Windows
+# Token Distribution Fuzz Test
+
+## Installation on Windows
 If you're using Windows, follow these steps to install and use Foundry:
 
 Install Foundry on your Windows machine.
