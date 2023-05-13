@@ -12,6 +12,7 @@ If you're using Windows, follow these steps to install and use Foundry:
 Install Docker for Windows and the Trail of Bits Security Toolbox by following the instructions on their respective GitHub pages: Docker and Trail of Bits Security Toolbox.
 
 Install Foundry by running ```curl -L https://foundry.paradigm.xyz | bash``` in your terminal.
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
 
 After installing Docker and the Trail of Bits Security Toolbox, run ```docker build -t <ChooseAName>``` to create a Docker image with both tools and Foundry.
 
