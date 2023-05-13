@@ -3,11 +3,11 @@
 ## Installation on Windows
 If you're using Windows, follow these steps to install and use Foundry:
 
-Install Foundry on your Windows machine.
+1-Install Foundry on your Windows machine.
 
-Clone the repository to your local machine.
+2-Clone the repository to your local machine.
 
-Open your terminal and run forge build.
+3-Open your terminal and run forge build.
 
 Install Docker for Windows and the Trail of Bits Security Toolbox by following the instructions on their respective GitHub pages: Docker and Trail of Bits Security Toolbox.
 
