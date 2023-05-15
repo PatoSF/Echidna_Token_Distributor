@@ -14,7 +14,7 @@ Install [Docker](https://www.docker.com/) for Windows then install [Trail of Bit
 
 ![alt text](https://github.com/PatoSF/Echidna_Token_Distributor/blob/master/Images/docker.png) 
 
-After installing Docker and the Trail of Bits Security Toolbox, run ```docker build -t <ChooseAName>``` to create a Docker image with both security toolbox and foundry. Run ```docker run -it --mount type=bind,source="${PWD}",target=/code <ChooseAName>``` to create a container. If your project is located on your Desktop, navigate to it by running cd .. twice, then cd code.
+After installing Docker and the Trail of Bits Security Toolbox, run ```docker build -t <ChooseAName>``` to create a Docker image with both security toolbox and foundry. Run ```docker run -it --mount type=bind,source="${PWD}",target=/code <ChooseAName>``` to create a container. If your project is located on your Desktop, navigate to it by running ```cd ..``` twice then ```cd code``` and run ```forge build```.
 
 ![alt text](https://github.com/PatoSF/Echidna_Token_Distributor/blob/master/Images/Screenshot%20(433).png) 
 
