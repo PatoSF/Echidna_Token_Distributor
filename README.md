@@ -22,4 +22,5 @@ After installing Docker and the Trail of Bits Security Toolbox, run ```docker bu
 
 Once you're in your project's path, run forge build to compile the project. To run the fuzz test, use the command ```echidna-test . --contract TutorialTest --test-mode assertion```.
 
-In summary, these steps will set up a development environment on your Windows machine with the necessary tools to build and test smart contracts using Foundry. See below for a visual representation of the process:
+![alt text](https://github.com/PatoSF/Echidna_Token_Distributor/blob/master/Images/Screenshot%20(434).png) 
+
