@@ -1,4 +1,4 @@
-# Token Distribution Fuzz Test
+# Echidna Token Distributor
 We will implement a Token distribution contract that will add multiple members to the array so we can distribute the ERC20 token equally between them. 
 We will also implemetn a fuzzing contract using assertion mode in echidna to check if there's still some token remaining in the contract.
 ## Installation on Windows
