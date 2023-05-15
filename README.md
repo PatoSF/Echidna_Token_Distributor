@@ -24,5 +24,5 @@ Once you're in your project's path, run forge build to compile the project. To r
 
 ![alt text](https://github.com/PatoSF/Echidna_Token_Distributor/blob/master/Images/Screenshot%20(434).png) 
 
-Here echidna divide 1 billion tokens between 15 addressess so 1,000,000,000 / 15 = 66,666,666.666667 tokens per user. 
+Here echidna divide 1 billion tokens between 15 addressess so 1,000,000,000 / 15 = 66,666,666.666667 tokens per user.
 0.666667 x 15 = 10.000005 tokens left in the contract that's why the test will fail.
