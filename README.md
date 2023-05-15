@@ -2,7 +2,7 @@
 We will implement a Token distribution contract that will add multiple members to the array so we can distribute the ERC20 token equally between them. 
 We will also implemetn a fuzzing contract using assertion mode in echidna to check if there's still some token remaining in the contract.
 ## Installation on Windows
-If you're using Windows, follow these steps to install and use Foundry:
+### If you're using Windows, follow these steps to install and use Foundry:
 
 1-Install Foundry on your Windows machine.
 
