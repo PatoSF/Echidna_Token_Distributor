@@ -10,7 +10,7 @@ We will also implemetn a fuzzing contract using assertion mode in echidna to che
 
 3-Open your terminal and run forge build.
 
-Install Docker for Windows and the Trail of Bits Security Toolbox by following the instructions on their respective GitHub pages: Docker and Trail of Bits Security Toolbox.
+Install Docker for Windows and the Trail of Bits Security Toolbox by following the instructions on their respective GitHub pages: [Trail of Bits Security Toolbox](https://github.com/trailofbits/eth-security-toolbox).
 
 Install Foundry by running ```curl -L https://foundry.paradigm.xyz | bash``` in your terminal.  
 
