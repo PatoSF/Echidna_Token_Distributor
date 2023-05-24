@@ -16,21 +16,23 @@ Install [Docker](https://www.docker.com/) for Windows then install [Trail of Bit
 
 ![alt text](https://github.com/PatoSF/Echidna_Token_Distributor/blob/master/Images/docker.png)
 
+After installing Foundry and the Trail of Bits Security Toolbox, run ```docker build -t <ChooseAName> .``` to create a Docker image with both ToB security toolbox and Foundry. 
 
 | Steps | Copy/Paste commands |
 |-----:|-----------|
-|     1| ```docker build -t <ChooseAName> .```|
-|     2| ```docker run -it --mount type=bind,source="${PWD}",target=/code <ChooseAName>```   |
+|     1| ```docker build -t <ChooseAName> .``` to create a Docker image with both ToB security toolbox and Foundry|
+|     2| ```docker run -it --mount type=bind,source="${PWD}",target=/code <ChooseAName>``` to create a container of the image  |
 |     3| ```cd ..```       |
 |     4| ```cd ..```       |
 |     5| ```cd code```       |
-|     6| ```forge build```       |
+|     6| ```forge build``` to compile the project       |
+|     7| ```echidna-test . --contract TutorialTest --test-mode assertion``` to run echidna in assertion mode      |
 
-After installing Docker and the Trail of Bits Security Toolbox, run ```docker build -t <ChooseAName> .``` to create a Docker image with both security toolbox and foundry. Run ```docker run -it --mount type=bind,source="${PWD}",target=/code <ChooseAName>``` to create a container. If your project is located on your Desktop, navigate to it by running ```cd ..``` twice then ```cd code``` and run ```forge build```.
+Run ```docker run -it --mount type=bind,source="${PWD}",target=/code <ChooseAName>``` to create a container. If your project is located on your Desktop, navigate to it by running ```cd ..``` twice then ```cd code``` and run ```forge build```.
 
 ![alt text](https://github.com/PatoSF/Echidna_Token_Distributor/blob/master/Images/Screenshot%20(433).png) 
 
-Once you're in your project's path, run forge build to compile the project. To run the fuzz test, use the command ```echidna-test . --contract TutorialTest --test-mode assertion```.
+Then run the fuzz test using the command ```echidna-test . --contract TutorialTest --test-mode assertion```.
 
 ![alt text](https://github.com/PatoSF/Echidna_Token_Distributor/blob/master/Images/Screenshot%20(434).png) 
 
