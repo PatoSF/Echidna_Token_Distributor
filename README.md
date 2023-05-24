@@ -28,11 +28,9 @@ After installing Foundry and the Trail of Bits Security Toolbox, run ```docker b
 |     6| ```forge build``` to compile the project       |
 |     7| ```echidna-test . --contract TutorialTest --test-mode assertion``` to run echidna in assertion mode      |
 
-Run ```docker run -it --mount type=bind,source="${PWD}",target=/code <ChooseAName>``` to create a container. If your project is located on your Desktop, navigate to it by running ```cd ..``` twice then ```cd code``` and run ```forge build```.
-
 ![alt text](https://github.com/PatoSF/Echidna_Token_Distributor/blob/master/Images/Screenshot%20(433).png) 
 
-Then run the fuzz test using the command ```echidna-test . --contract TutorialTest --test-mode assertion```.
+Run the fuzz test using the command ```echidna-test . --contract TutorialTest --test-mode assertion```.
 
 ![alt text](https://github.com/PatoSF/Echidna_Token_Distributor/blob/master/Images/Screenshot%20(434).png) 
 
