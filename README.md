@@ -22,6 +22,9 @@ Install [Docker](https://www.docker.com/) for Windows then install [Trail of Bit
 |     1| ```docker build -t <ChooseAName> .```|
 |     2| ```docker run -it --mount type=bind,source="${PWD}",target=/code <ChooseAName>```   |
 |     3| ```cd ..```       |
+|     4| ```cd ..```       |
+|     5| ```cd code```       |
+|     6| ```forge build```       |
 
 After installing Docker and the Trail of Bits Security Toolbox, run ```docker build -t <ChooseAName> .``` to create a Docker image with both security toolbox and foundry. Run ```docker run -it --mount type=bind,source="${PWD}",target=/code <ChooseAName>``` to create a container. If your project is located on your Desktop, navigate to it by running ```cd ..``` twice then ```cd code``` and run ```forge build```.
 
