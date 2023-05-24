@@ -4,6 +4,12 @@ We will also implemetn a fuzzing contract using assertion mode in echidna to che
 ## Installation on Windows
 ### If you're using Windows, follow these steps to install and use Foundry:
 
+
+| Steps | Copy/Paste commands |
+|-----:|-----------|
+|     1| Javascript|
+|     2| Python    |
+|     3| SQL       |
 1-Install Foundry on your Windows machine.
 
 2-Clone the repository to your local machine.
