@@ -5,6 +5,7 @@ We will also implemetn a fuzzing contract using assertion mode in echidna to che
 ### If you're using Windows, follow these steps to install and use Foundry:
 
 | Steps |  
+|-----:|-----------|
 |1- Install Foundry on your Windows machine |
 |2- Clone the repository to your local machine |
 |3- Open your terminal and run ```forge build``` |
