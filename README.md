@@ -5,11 +5,7 @@ We will also implemetn a fuzzing contract using assertion mode in echidna to che
 ### If you're using Windows, follow these steps to install and use Foundry:
 
 
-| Steps | Copy/Paste commands |
-|-----:|-----------|
-|     1| Javascript|
-|     2| Python    |
-|     3| SQL       |
+
 1-Install Foundry on your Windows machine.
 
 2-Clone the repository to your local machine.
@@ -18,7 +14,14 @@ We will also implemetn a fuzzing contract using assertion mode in echidna to che
 
 Install [Docker](https://www.docker.com/) for Windows then install [Trail of Bits Security Toolbox](https://github.com/trailofbits/eth-security-toolbox) on docker and Foundry by running ```curl -L https://foundry.paradigm.xyz | bash``` in your terminal.  
 
-![alt text](https://github.com/PatoSF/Echidna_Token_Distributor/blob/master/Images/docker.png) 
+![alt text](https://github.com/PatoSF/Echidna_Token_Distributor/blob/master/Images/docker.png)
+
+
+| Steps | Copy/Paste commands |
+|-----:|-----------|
+|     1| ```docker build -t <ChooseAName> .```|
+|     2| ```docker run -it --mount type=bind,source="${PWD}",target=/code <ChooseAName>```   |
+|     3| ```cd ..```       |
 
 After installing Docker and the Trail of Bits Security Toolbox, run ```docker build -t <ChooseAName> .``` to create a Docker image with both security toolbox and foundry. Run ```docker run -it --mount type=bind,source="${PWD}",target=/code <ChooseAName>``` to create a container. If your project is located on your Desktop, navigate to it by running ```cd ..``` twice then ```cd code``` and run ```forge build```.
 
