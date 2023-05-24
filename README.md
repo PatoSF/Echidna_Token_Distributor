@@ -9,9 +9,9 @@ We will also implemetn a fuzzing contract using assertion mode in echidna to che
 |1- Install Foundry on your Windows machine |
 |2- Clone the repository to your local machine |
 |3- Open your terminal and run ```forge build``` |
-
-
-Install [Docker](https://www.docker.com/) for Windows then install [Trail of Bits Security Toolbox](https://github.com/trailofbits/eth-security-toolbox) on docker and Foundry by running ```curl -L https://foundry.paradigm.xyz | bash``` in your terminal.  
+|4- Install [Docker](https://www.docker.com/) for Windows |
+|5- Install [Trail of Bits Security Toolbox](https://github.com/trailofbits/eth-security-toolbox) on docker |
+|6- Install Foundry on Docker by running ```curl -L https://foundry.paradigm.xyz | bash``` in your terminal | 
 
 ![alt text](https://github.com/PatoSF/Echidna_Token_Distributor/blob/master/Images/docker.png)
 
