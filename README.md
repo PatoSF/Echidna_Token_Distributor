@@ -4,19 +4,16 @@ We will also implemetn a fuzzing contract using assertion mode in echidna to che
 ## Installation on Windows
 ### If you're using Windows, follow these steps to install and use Foundry:
 
-
-
-1-Install Foundry on your Windows machine.
-
-2-Clone the repository to your local machine.
-
-3-Open your terminal and run forge build.
+| Steps |  |
+|-----:|-----------|
+|     1| Install Foundry on your Windows machine |
+|     2| Clone the repository to your local machine |
+|     3| Open your terminal and run ``` forge build``` |
+1-Install Foundry on your Windows machine, Clone the repository to your local machine, Open your terminal and run forge build.
 
 Install [Docker](https://www.docker.com/) for Windows then install [Trail of Bits Security Toolbox](https://github.com/trailofbits/eth-security-toolbox) on docker and Foundry by running ```curl -L https://foundry.paradigm.xyz | bash``` in your terminal.  
 
 ![alt text](https://github.com/PatoSF/Echidna_Token_Distributor/blob/master/Images/docker.png)
-
-After installing Foundry and the Trail of Bits Security Toolbox, run ```docker build -t <ChooseAName> .``` to create a Docker image with both ToB security toolbox and Foundry. 
 
 | Steps | Copy/Paste commands |
 |-----:|-----------|
